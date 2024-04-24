@@ -1,9 +1,13 @@
-
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <Helmet>
+        <title>GadgetGalaxy || Home</title>
+      </Helmet>
+    </>
+  );
+};
 
-export default Home
+export default Home;
